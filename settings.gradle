@@ -1,0 +1,4 @@
+include ':KotlinPractice'
+include ':JavaPractice'
+include ':app'
+rootProject.name = "DataStructureAndAlgo"

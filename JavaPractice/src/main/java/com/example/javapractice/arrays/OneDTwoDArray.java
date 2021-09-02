@@ -29,6 +29,11 @@ public class OneDTwoDArray {
         int[] arr = {3,6,9};
         findAndPrintOutput(twoDimArr,arr);
         int[] rotate = {1,2,4,5,3,6,9,3};
+        rotateArrayBy1Position(rotate); // {1,2,4,5,3,6,9,3} to {3,1,2,4,5,3,6,9};
+    }
+
+    private static void rotateArrayBy1Position(int[] value) {
+
     }
 
     private static void findAndPrintOutput(int[][] twoDimArr, int[] arr) {

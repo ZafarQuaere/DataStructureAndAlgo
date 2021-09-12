@@ -33,7 +33,12 @@ public class OneDTwoDArray {
     }
 
     private static void rotateArrayBy1Position(int[] value) {
-
+        System.out.println("Array before rotation: "+Arrays.toString(value));
+        int x = value[value.length - 1];
+        for (int i = value.length-1; i > 0; i--)
+            value[i] = value[i-1];
+        value[0] = x;
+        System.out.println("Array after rotation: "+Arrays.toString(value));
     }
 
     private static void findAndPrintOutput(int[][] twoDimArr, int[] arr) {

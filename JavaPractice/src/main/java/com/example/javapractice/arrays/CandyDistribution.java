@@ -28,7 +28,7 @@ public class CandyDistribution {
             }
         }
         System.out.println("C array from right to left: "+Arrays.toString(c));
-        for (int i = n-2; i >= 0 ; i--) {
+        for (int i = n-2; i >= 0; i--) {
             if (a[i] > a[i+1]){
                 c[i] = Math.max(c[i+1]+1,c[i]);
             }

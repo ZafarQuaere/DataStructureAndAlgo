@@ -12,17 +12,17 @@ public class ArrayDemo {
         int arr1[] = {1, 2, 3};
         int arr2[] = {1, 2, 3};
 
-        if (arr1 == arr2) // comparing using reference
+        if (arr1 == arr2) // comparing using reference, it is false;
             System.out.println("Same");
         else
             System.out.println("Not same");
 
-        if (Arrays.equals(arr1, arr2)) // Comparing content
+        if (Arrays.equals(arr1, arr2)) // Comparing content, it is true
             System.out.println("Same");
         else
             System.out.println("Not same");
 
-        if (arr1.equals(arr2)) // arr1.equals(arr2) is same as (arr1 == arr2)
+        if (arr1.equals(arr2)) // arr1.equals(arr2) is same as (arr1 == arr2) , it is false
             System.out.println("Same");
         else
             System.out.println("Not same");

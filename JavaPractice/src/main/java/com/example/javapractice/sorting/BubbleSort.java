@@ -21,7 +21,7 @@ public class BubbleSort {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
-                    sorted = false;  // if swap happend then array is not sorted, so flag is false
+                    sorted = false;  // if swap happened then array is not sorted, so flag is false
                 }
             }
             if (sorted)
